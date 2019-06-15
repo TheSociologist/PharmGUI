@@ -9,7 +9,7 @@ from kivy.uix.image import Image
 from kivy.uix.label import Label
 from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.screenmanager import Screen
-
+from Design.Icons import SolidPillTypeIcon, LiquidTypeIcon
 
 Slot1 = Pill("Tylenol", 1, 0, 5, 21, 30, "Painkiller", "9/12/2019", True)
 Slot2 = Pill("", 2, 0, 0, 0, 0, "", "", False)
@@ -69,8 +69,6 @@ class HomePage:
                 return str(hoursleft) + " Hours Left"
 
         def ChooseIcon(Slot):
-            SolidPillTypeIcon = 'C:\GUIIcons\PillType.png'
-            LiquidTypeIcon = 'C:\GUIIcons\LiquidType.png'
             if Slot.Type() == "solid":
                 return SolidPillTypeIcon
             else:

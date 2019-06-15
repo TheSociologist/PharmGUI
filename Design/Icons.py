@@ -1,4 +1,4 @@
-SettingsIcon = 'settings.png'
+SettingsIcon = 'Design/images/settings.png'
 PillIcon = 'Design/images/pill.png'
 BackIcon = 'Design/images/back.png'
 HomeIcon = 'Design/images/home.png'
