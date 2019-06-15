@@ -2,4 +2,3 @@
 
 DefaultFont = 'RobotoCondensed-Regular.ttf'
 
-'TEsting'
