@@ -1,2 +1,2 @@
-Main Python-based GUI for Pharm Standard written in Kivy
+Touchscreen-oriented UI for Pharm Standard written in Python with Kivy library
 
